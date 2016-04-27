@@ -1,0 +1,31 @@
+{
+  "name": "replace-this-with-a-package-name",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "rollup -c rollup.config.test.js",
+    "build": "rollup -c rollup.config.build.js",
+    "test": "mocha test/bundle.js"
+  },
+  "keywords": [],
+  "author": "Wilhelm Behncke <>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^5.0.0-beta6",
+    "babel-preset-es2015-rollup": "^1.1.1",
+    "chai": "^3.5.0",
+    "eslint": "^1.10.3",
+    "mocha": "^2.3.4",
+    "mocha-sinon": "^1.1.5",
+    "rollup": "^0.24.1",
+    "rollup-plugin-babel": "^2.3.9",
+    "rollup-plugin-multi-entry": "^1.1.0",
+    "sinon": "^1.17.3",
+    "source-map-support": "^0.4.0"
+  },
+  "dependencies": {
+    "@reduct/component": "^4.1.2",
+    "virtual-dom": "^2.1.1"
+  }
+}
